@@ -27,7 +27,7 @@
 
 @media only screen and (max-width: 1200px) {
     .d3BarChart{
-        width: 575px;
+        width: 540px;
         height: 350px;
     }
 }
