@@ -1,0 +1,33 @@
+.d3BarChart{
+    width: 900px;
+    height: 450px;
+}
+
+.bar-title {
+    font-family: 'Roboto';
+}
+
+#tooltip{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    font: italic normal 300 14px Roboto;
+    border-bottom-left-radius: 35px;
+    width: 200px;
+    height: auto;
+    padding: 20px;
+    pointer-events: none;
+    z-index: 999;
+}
+
+#tooltip.hidden{
+    display: none;
+}
+
+@media only screen and (max-width: 1200px) {
+    .d3BarChart{
+        width: 600px;
+        height: 450px;
+    }
+}
